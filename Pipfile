@@ -1,0 +1,17 @@
+pipenv r[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi = "==2022.9.24"
+charset-normalizer = "==2.1.1"
+idna = "==3.4"
+urllib3 = "==1.26.12"
+pytest = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
